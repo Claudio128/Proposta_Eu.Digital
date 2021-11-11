@@ -1,0 +1,135 @@
+/* Tags */
+
+/* Deixa a rolagem mais suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Cor do texto */
+a {color: #ffffff;
+	text-decoration: none;}
+
+/* Cor, fonte e sombra do parágrafo */
+p { color: #001b37;
+	font-size: 25px;
+  text-align: justify;}
+
+/* Cor e sombra do Titulo h1 */
+h1 {color: #001b37;
+  padding: 40px;
+	text-align: center;}
+
+/* Toda a página tem o margin e padding 0 para deixar tudo 
+junto e toda a fonte da página é Helvética ou Arial */
+* { margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial;}
+
+/* O cabeçalho vai ter o fundo azul escuro */
+header {background: #000000;
+		height: 90px;
+		padding: 10px;}
+
+/* O estilo do rodapé */
+footer { background: #000000;
+		min-height: 105px;
+		clear: both; 
+		text-align: center;
+		padding: 10px;
+		color: #ffffff;
+		}
+
+button {background:#001b37}
+button p {color:#ffffff;
+font-size: 20px;
+margin: 10px;
+}
+
+/* IDs */
+
+#ind { float: top;}
+
+/* A logo vai está no canto esquedo */
+#logo { float: left; 
+  margin: 30px;}
+
+/* O estilo do menu */
+#menu a { text-decoration: none;
+		color: #eef0f2; 
+		font-family: Cambria; ;
+		padding: 32px 20px;
+		font-size: 20px;
+    float: right;}
+
+/* A cor que vai ter quando o mouse passar em cima */
+#menu a:hover {
+  transition-duration: 1s;
+  color: #ffffff;
+  color: #fd8f22;
+}
+
+/* Estilo da descrição do rodapé */
+#descricao p {
+  color: #001b37;
+  font-family: Cambria; ;
+  padding: 10px 0px 0px 0px;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Posição da foto da page home */
+#principal img { float: right;
+margin: 30px;
+padding-top: 90px}
+
+/* Posição do texto ao lado da imagem da page home */
+#principal p { padding: 100px 450px 100px 30px}
+
+/* Posição do texto ao lado da imagem da page home */
+#serv p { padding: 10px 30px 30px 30px;}
+#serv {background:#fd8f22}
+
+/* Posição do texto ao lado da imagem da page home */
+#port p { padding: 10px 30px 30px 30px;}
+#port {background:#ffffff}
+
+/* Posição do texto ao lado da imagem da page home */
+#ctts p {padding: 20px 30px 20px 30px;
+  text-align: center;
+  color: #ffffff;}
+#ctts {background:#001b37}
+#ctts h1 {color: #ffffff}
+#ctts a {font-size: 25px;}
+/* Efeito de aproximação das logos do Insta */
+img{
+ max-width: 100%;
+ align-items: center;
+}
+#redes {
+ margin: 15px;
+}
+#redes img{
+ -webkit-transition: all 0.7s ease;
+ transition: all 0.7s ease;
+}
+#redes img:hover {
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+
+/* Efeito de aproximação das logos do Insta */
+#ctts img{
+ -webkit-transition: all 0.7s ease;
+ transition: all 0.7s ease;
+}
+#ctts img:hover {
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+
+/* Classes */
+.container { width: 1366px;
+		margin: auto; }
+
+.container1 { width: 1349px;
+		margin: auto; }
